@@ -1,0 +1,344 @@
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+body{
+    font-family: "Open Sans";
+}
+li {
+    list-style: none;
+}
+.header{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    height: 56px;
+}
+.header-img img:active{
+opacity: 0.4;
+}
+.navbar{
+display: flex;
+align-items: center;
+height: 56px;
+}
+.navbar:active{
+    background-color: rgba(25, 25, 25, 0.7);
+}
+.navbar-li{
+    margin-left: 15px;
+}
+.navbar-li:hover{
+border-bottom: 3px solid black;
+}
+.navbar a:active{
+    color: #FFFFFF;
+}
+.navbar-li:active{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 139;
+    height: 100%;
+}
+.navbar-li a{
+    text-decoration: none;
+    color: #000000;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+  .dropdown-content p{
+    width: 150px;
+    height: 30px;
+    padding-top: 15px; 
+    padding-left: 15px; 
+}
+.navbar-ul-li-1:hover .dropdown-content {
+    display: block;
+}
+.navbar-ul-li-1 a{
+    text-decoration: none;
+    color: #191919;
+    margin-left: 10px;
+}
+.dropdown-content p:hover{
+    background-color: rgba(0, 186, 252, 1);
+    color: #fff;
+}
+.dropdown-content p:active{
+    background-color: rgba(0, 186, 252, 1);
+opacity: 0.6;
+}
+.navbar-tel{
+    margin-left: 20px;
+display: flex;
+background-color: #00BAFC;
+width: 159px;
+height: 40px;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+}
+.navbar-tel:hover{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+width: 139px;
+height: 20px;
+background-color: white;
+border: 3px solid #00BAFC;
+border-radius: 5px;
+}
+.navbar-tel:active{
+    margin-left: 20px;
+display: flex;
+background-color: rgba(0, 186, 252, 0.6);
+width: 139px;
+height: 20px;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+ 
+}
+.navbar-tel a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.navbar-tel a:hover{
+    color: #00BAFC;
+}
+
+main{
+    margin-top: 100px;
+}
+.hearor{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.hearor-left{
+    width: 470px;
+    height: 224px;
+}
+.hearor-left h1{
+    font-size: 30px;
+    line-height: 39px;
+}
+.hearor-left p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.hearor-left button{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+border: 1px solid #00BAFC ;
+width: 232px;
+height: 40px;
+background: #00BAFC;
+border-radius: 5px;
+color: #FFFFFF;
+}
+.hearor-left button:hover{
+    background: rgba(0, 186, 252, 0.8);
+}
+.hearor-left button:active{
+    background: rgba(0, 186, 252, 0.6);
+}
+.hearor-right{
+    position: relative;
+    width: 458px;
+    height: 258px;
+}
+.youtube{
+    position: relative;
+    border-radius: 8px;
+}
+.ikonka{
+    position: absolute;
+    left: 150px;
+    top: 80px;
+}
+.xizmatlar{
+    margin-top: 40px;
+    width: 100%;
+    height: 879px;
+    padding:   56px, 0px, 56px, 0px;
+text-align: center;
+margin-bottom: 500px;
+}
+.xizmatlar p{
+    width: 719px;
+margin-left: 300px;
+}
+.xizmatlar-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box1{
+    margin-top: 40px;
+    width: 320px;
+    height: 260px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.box1:hover{
+    box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+}
+.box1:active{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.box1 p{
+    margin-left: -200px;
+}
+.buyurtma{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.buyurtma button{
+    margin-right: 20px;
+    margin-top: -8px;
+    background-color: #00BAFC;
+    color: white;
+    display: flex;
+    border: 1px solid #00BAFC;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+border-radius: 5px;
+}
+.buyurtma a{
+    color: #00BAFC;
+}
+.ish{
+    text-align: center;
+}
+.aniqlaw{
+    margin-bottom: 50px;
+margin-left: 250px;
+  align-items: center;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.text h2{
+    text-align: start;
+}
+.text p{
+    text-align: start;
+width: 500px;
+}
+.inputlar{
+    background-color: #00BAFC;
+    height: 543px;
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+   padding-bottom: 50px;
+}
+.inputlar p{
+    width: 719px;
+    margin-left: 280px;
+}
+form input{
+    padding-left: 20px;
+    width: 280px;
+    background-color: #F3F3F3;
+    height: 56px;
+    margin-bottom: 20px;
+}
+form select{
+    width: 300px;
+    height: 56px;
+    margin-bottom: 20px;
+    background-color: #F3F3F3;  
+}
+form{
+    width: 348px;
+    height: 304px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    margin-top: 100px;
+    margin-left: 480px;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #191919;
+    width: 100%;
+    height: 338px;
+}
+.fbox1{
+    width: 320px;
+    color: white;
+}
+.fbox1 a{
+    text-decoration: none;
+    color: white;
+}
+.fbox2{
+    width: 143px;
+    color: white;
+    margin-top: 80px;
+}
+.fbox2 a{
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+}
+.fbox2 a:hover{
+    color: #00BAFC;
+}
+.fbox2 a:active{
+    color: #00BAFC;
+    opacity: 0.6;
+}
+.fbox3{
+width: 142px;
+color: white;
+margin-right: 250px;
+}
+.fbox3 a{
+    text-decoration: none;
+    color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.fbox3 a:hover{
+    color: #00BAFC;
+}
+.fbox3 a:active{
+    color: #00BAFC;
+    opacity: 0.6;
+}
